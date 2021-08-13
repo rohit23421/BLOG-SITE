@@ -1,0 +1,74 @@
+.register{
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.06)
+    ), 
+    url("https://images.immediate.co.uk/production/volatile/sites/25/2020/05/Mars-Saturn-Jupiter-3bd67e3-e1591182300998.jpg?quality=90&resize=768,574");
+    background-size: cover;
+    padding: 30px;
+}
+
+.registerTitle{
+    font-size: 40px;
+}
+
+.registerForm{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 8px 0;
+}
+
+.registerEmail{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #38d39f;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #38d39f;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.registerButton{
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border: none;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.registerImg{
+    padding: 2px;
+    border-radius: 10px;
+}
