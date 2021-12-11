@@ -8,6 +8,7 @@
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     z-index: 999;
+    text-decoration: none;
 }
 
 .topLeft,.topRight{
@@ -41,6 +42,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 .topListItem{
@@ -48,6 +50,7 @@
     font-size: 16px;
     font-weight: 300px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .topSearchIcon{
