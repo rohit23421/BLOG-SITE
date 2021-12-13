@@ -31,7 +31,6 @@ export default function Write() {
       window.location.replace("/post/" + res.data._id);
     } catch (err) {}
   };
-
   return (
     <div className="write">
       {file && (
@@ -40,7 +39,7 @@ export default function Write() {
       <form className="writeForm" onSubmit={handleSubmit}>
         <div className="writeFormGroup">
           <label htmlFor="fileInput">
-            <i className="writeIcon far fa-plus-square"></i>
+            <i className="writeIcon fas fa-plus"></i>
           </label>
           <input
             type="file"
@@ -58,7 +57,7 @@ export default function Write() {
         </div>
         <div className="writeFormGroup">
           <textarea
-            placeholder="Tell your Story"
+            placeholder="Tell your story..."
             type="text"
             className="writeInput writeText"
             onChange={(e) => setDesc(e.target.value)}
